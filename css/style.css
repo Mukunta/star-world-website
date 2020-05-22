@@ -1,0 +1,39 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Overlock', cursive, sans-serif;
+}
+
+.stylish {
+  font-family: 'Niconne', cursive, sans-serif;
+}
+
+#home-heading {
+  position: relative;
+  height: 100vh;
+  background: url('../img/timon-klauser-3MAmj1ZKSZA-unsplash.jpg') no-repeat center center/cover;
+}
+  
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+  
+#home-heading .content-items {
+  z-index: 1100;
+}
+
+#home-heading .contents {
+  height: 100%;
+}
+
+#testimonials img {
+  width: 150px;
+}
+
+.kunta {
+  font-family: 'Orbitron', sans-serif; 
+}
