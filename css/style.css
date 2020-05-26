@@ -1,3 +1,58 @@
+:root {
+  --customblack: #1a1a1d;
+  --customgrey: #4e4e50;
+  --custommaroon: #6f2232;
+  --custompink: #ebadc5;
+  --customred: #c3073f;
+  --customwhite: #fafafa;
+}
+
+.text-custom-red {
+  color: var(--customred);
+}
+
+.text-custom-maroon {
+  color: var(--custommaroon);
+}
+
+.text-custom-pink {
+  color: var(--custompink);
+}
+
+.text-custom-white {
+  color: var(--customwhite);
+}
+
+.background-grey {
+  background: var(--customgrey);
+}
+
+.background-black {
+  background: var(--customblack);
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+  color: #fff;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 1px 9px 3px rgba(247, 197, 224, 0.76);
+  box-shadow: 0px 1px 9px 3px rgba(247, 197, 224, 0.76);
+}
+
+.red-border {
+  border: var(--customred) solid 1px;
+}
+
+nav a {
+  color: var(--customwhite);
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Overlock', cursive, sans-serif;
@@ -10,18 +65,18 @@ body {
 #home-heading {
   position: relative;
   height: 100vh;
-  background: url('../img/timon-klauser-3MAmj1ZKSZA-unsplash.jpg') no-repeat center center/cover;
+  background: url('../img/denim-timon-klauser-unsplash.jpg') no-repeat center center/cover;
 }
-  
+
 .dark-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
 }
-  
+
 #home-heading .content-items {
   z-index: 1100;
 }
@@ -34,6 +89,6 @@ body {
   width: 150px;
 }
 
-.kunta {
-  font-family: 'Orbitron', sans-serif; 
+#about-container img {
+  width: 430px;
 }
